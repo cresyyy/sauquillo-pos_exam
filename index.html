@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Starbucks Coffee</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="assets/starbuckslogo1.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+              <img
+                src="assets/starbuckslogo2.png"
+                alt="logo"
+                class="nav__logo-white"
+              />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#special">SPECIAL</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header1.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>IT'S NOT JUST COFFEE, IT'S STARBUCKS.</h2>
+          <h1>COFFEE<br /><span>TIME</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container banner__container" id="special">
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>BARISTA'S FAVOURITE</h4>
+      </div>
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>SEASONAL <br />FAVOURITES</h4>
+      </div>
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>ESPRESSO &<br />COFFEE</h4>
+      </div>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+      <h3>ALWAYS TASTEY CUP</h3>
+      <h2 class="section__header">CHOOSE & BREW</h2>
+      <p class="section__description">
+        With every cup, with every conversation, with every community– 
+        we nurture the limitless possibilities of human connection.
+      </p>
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="assets/order3.jpg" alt="order" />
+          <h4>Java Chip Frappuccino</h4>
+          <p>
+            We blend mocha sauce and Frappuccino® chips with coffee, milk 
+            and ice, then top it off with whipped cream and a mocha drizzle 
+            to bring you endless java joy.
+          </p>
+          <a href="orderpage.html" class="btn">ORDER NOW</a></button>
+        </div>
+        <div class="order__card">
+          <img src="assets/order4.jpg" alt="order" />
+          <h4>Coffee Jelly Frappuccino</h4>
+          <p>
+             A three delicious layer- innovative coffee jelly, creamy caramel Frappuccino blended with milk, coffee and ice finished with a 
+            fluffy cloud of whipped cream.
+          </p>
+          <a href="orderpage.html" class="btn">ORDER NOW</a></button>
+        </div>
+        <div class="order__card">
+          <img src="assets/order5.jpg" alt="order" />
+          <h4>Iced Caramel Macchiato</h4>
+          <p>
+            We combine our rich, full-bodied espresso with vanilla-flavored syrup, 
+            milk and ice, then top it off with a caramel drizzle for an oh-so-sweet 
+            finish.
+          </p>
+          <a href="orderpage.html" class="btn">ORDER NOW</a></button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="assets/starbuckslogo1.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            Starbucks Coffee -- With every cup, with every conversation, 
+            with every community– we nurture the limitless possibilities of 
+            human connection. Today, with more than 30,000 stores in more than 
+            75 markets, Starbucks is the premier roaster and retailer of 
+            specialty coffee in the world. And with every cup, we strive to 
+            bring both our heritage and an exceptional experience to life.
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                14 Jupiter St. cor. Asteroid St.,
+                Bel-Air 1, Makati City, Philippines
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                marketing@rustancoffee.ph.
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-whatsapp-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        © 2022 Starbucks Coffee Company. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
